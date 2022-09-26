@@ -23,6 +23,7 @@ public class HomePageTest extends BaseClass{
 	public void signInTest() throws InterruptedException {
 		homePage.signIn();
 	}
+	//
 	
 	@Test (enabled = true, priority = 3)
 	public void clickRegisterTest() throws InterruptedException {
