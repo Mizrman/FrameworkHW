@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.HomePageTest" hash-for-method="clickPageTest">clickPageTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.HomePageTest" hash-for-method="logoTest">logoTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.HomePageTest" hash-for-method="cookiesSettingTest">cookiesSettingTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -132,16 +127,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickPageTest">
-                  </a> <!-- clickPageTest -->
-                  <span class="method-name">clickPageTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logoTest">
-                  </a> <!-- logoTest -->
-                  <span class="method-name">logoTest</span>
+                  <a name="cookiesSettingTest">
+                  </a> <!-- cookiesSettingTest -->
+                  <span class="method-name">cookiesSettingTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/tz/28z_8t6d5hx1yjpwlby4chvh0000gq/T/testng-eclipse-872324944/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/tz/28z_8t6d5hx1yjpwlby4chvh0000gq/T/testng-eclipse--1543272889/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +146,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testPages.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;testPages.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;cookiesSettingTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPages.HomePageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logoTest')
+data.setCell(0, 1, 'cookiesSettingTest')
 data.setCell(0, 2, 'testPages.HomePageTest')
-data.setCell(0, 3, 156);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickPageTest')
-data.setCell(1, 2, 'testPages.HomePageTest')
-data.setCell(1, 3, 82);
+data.setCell(0, 3, 7856);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 238 ms</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,9 +214,36 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">11 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPages.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">searchFieldTest</span>
+                <br/>
+                <span class="ignored-method-name">logoTest</span>
+                <br/>
+                <span class="ignored-method-name">searchMoviesTest</span>
+                <br/>
+                <span class="ignored-method-name">clickRegisterTest</span>
+                <br/>
+                <span class="ignored-method-name">makeOneTimePaymentTest</span>
+                <br/>
+                <span class="ignored-method-name">businessSignInTest</span>
+                <br/>
+                <span class="ignored-method-name">clickWhySupportUsTest</span>
+                <br/>
+                <span class="ignored-method-name">signInTest</span>
+                <br/>
+                <span class="ignored-method-name">forgotYourInfoClickedTest</span>
+                <br/>
+                <span class="ignored-method-name">cssSelectorIdTest</span>
+                <br/>
+                <span class="ignored-method-name">signInClickTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -243,24 +258,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickPageTest</span>
-                <span class="method-start">4443 ms</span>
+                <span class="method-name">cookiesSettingTest</span>
+                <span class="method-start">3916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">4527 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">4652 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">logoTest</span>
-                <span class="method-start">9501 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearUp</span>
-                <span class="method-start">9659 ms</span>
+                <span class="method-start">11777 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
