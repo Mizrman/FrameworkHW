@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9851" started-at="2022-09-25T13:11:09 EDT" finished-at="2022-09-25T13:11:19 EDT">
+  <suite name="Default suite" duration-ms="12034" started-at="2022-10-03T18:37:26 EDT" finished-at="2022-10-03T18:37:38 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9851" started-at="2022-09-25T13:11:09 EDT" finished-at="2022-09-25T13:11:19 EDT">
+    <test name="Default test" duration-ms="12034" started-at="2022-10-03T18:37:26 EDT" finished-at="2022-10-03T18:37:38 EDT">
       <class name="testPages.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testPages.HomePageTest@b7dd107]" name="setUp" is-config="true" duration-ms="4441" started-at="2022-09-25T13:11:09 EDT" finished-at="2022-09-25T13:11:14 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testPages.HomePageTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="3915" started-at="2022-10-03T18:37:26 EDT" finished-at="2022-10-03T18:37:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickPageTest()[pri:0, instance:testPages.HomePageTest@b7dd107]" name="clickPageTest" duration-ms="82" started-at="2022-09-25T13:11:14 EDT" finished-at="2022-09-25T13:11:14 EDT">
+        <test-method status="PASS" signature="cookiesSettingTest()[pri:0, instance:testPages.HomePageTest@3ecd23d9]" name="cookiesSettingTest" duration-ms="7856" started-at="2022-10-03T18:37:30 EDT" finished-at="2022-10-03T18:37:38 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickPageTest -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomePageTest@b7dd107]" name="tearUp" is-config="true" duration-ms="124" started-at="2022-09-25T13:11:14 EDT" finished-at="2022-09-25T13:11:14 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testPages.HomePageTest@b7dd107]" name="setUp" is-config="true" duration-ms="4849" started-at="2022-09-25T13:11:14 EDT" finished-at="2022-09-25T13:11:19 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoTest()[pri:0, instance:testPages.HomePageTest@b7dd107]" name="logoTest" duration-ms="156" started-at="2022-09-25T13:11:19 EDT" finished-at="2022-09-25T13:11:19 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomePageTest@b7dd107]" name="tearUp" is-config="true" duration-ms="161" started-at="2022-09-25T13:11:19 EDT" finished-at="2022-09-25T13:11:19 EDT">
+        </test-method> <!-- cookiesSettingTest -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testPages.HomePageTest@3ecd23d9]" name="tearUp" is-config="true" duration-ms="221" started-at="2022-10-03T18:37:38 EDT" finished-at="2022-10-03T18:37:38 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

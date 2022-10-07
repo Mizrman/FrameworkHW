@@ -5,8 +5,8 @@
     <classes>
       <class name="testPages.HomePageTest">
         <methods>
-          <include name="signInPageTest"/>
           <include name="tearUp"/>
+          <include name="cookiesSettingTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testPages.HomePageTest -->
